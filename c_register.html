@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="C_style.css">
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+  <!-- Firebase Configuration -->
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCWPCpQh9XBOp7baxlFUcLz7Ri6X3xNBCw",
+      authDomain: "impulse-d1c86.firebaseapp.com",
+      databaseURL: "https://impulse-d1c86-default-rtdb.firebaseio.com",
+      projectId: "impulse-d1c86",
+      storageBucket: "impulse-d1c86.appspot.com",
+      messagingSenderId: "563108691076",
+      appId: "1:563108691076:web:21bb583bbd165119ad56d1",
+      measurementId: "G-DWCQXLT5RJ"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    // Get a reference to the Firebase Realtime Database
+    const database = firebase.database();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2><b>Event Registration Form</b></h2>
+    <form id="registrationForm" action="maincode.php" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="sapId">SAPID:</label>
+        <input type="text" id="sapId" name="SAPID" placeholder="Enter your SAP ID" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" placeholder="Enter your Mail ID" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Contact Number:</label>
+        <input type="text" id="phone" name="PhoneNumber" placeholder="Enter your Mobile number" required>
+      </div>
+      <div class="form-group select-group">
+        <label for="school">School:</label><br>
+        <select id="school" name="School" required>
+          <option value="" disabled selected>Select your school</option>
+          <option value="STME">STME</option>
+          <option value="SPTM">SPTM</option>
+          <option value="SOL">SOL</option>
+          <option value="SBM">SBM</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="year">Year:</label>
+        <select id="year" name="Year" required>
+          <option value="" disabled selected>Select Year</option>
+          <option value="First">First</option>
+          <option value="Second">Second</option>
+          <option value="Third">Third</option>
+          <option value="Fourth">Fourth</option>
+          <option value="Fifth">Fifth</option>
+        </select>
+      </div>
+      <button type="button" onclick="registerUser()">Register</button>
+    </form>
+  </div>
+
+  <!-- App JavaScript -->
+ <!-- App JavaScript -->
+<script>
+  function registerUser() {
+    // Get form values
+    const name = document.getElementById("name").value;
+    const sapId = document.getElementById("sapId").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const school = document.getElementById("school").value;
+    const year = document.getElementById("year").value;
+
+    // Create an object with the form data
+    const userData = {
+      name: name,
+      sapId: sapId,
+      email: email,
+      phone: phone,
+      school: school,
+      year: year
+    };
+
+    // Get a reference to the "registrations" node in the database
+    const registrationsRef = database.ref("registrations");
+
+    // Push the user data to the "registrations" node
+    registrationsRef.push(userData)
+      .then(() => {
+        // Clear the form after submission
+        document.getElementById("registrationForm").reset();
+        
+        // Alert the user
+        alert("Your response has been submitted.");
+        
+        // Redirect to index.html
+        window.location.href = "index.html";
+      })
+      .catch(error => {
+        // Handle errors if any
+        console.error("Error submitting response:", error);
+        alert("Error submitting response. Please try again later.");
+      });
+  }
+</script>
+</body>
+</html>
