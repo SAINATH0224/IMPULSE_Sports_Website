@@ -1,46 +1,36 @@
-## 👋 Hey there! I'm Sainath
+# IMPULSE Sports Website 🏅
 
-**Aspiring Data Scientist & Full Stack Developer**  
-Passionate about **Machine Learning, Computer Vision**, and **Web Development**. I enjoy building real-time, impactful applications that solve real-world problems — from smart safety systems to sports tech solutions.
+Welcome to the official GitHub repository of the **IMPULSE Sports Committee Website**, developed to showcase the energy, enthusiasm, and events of the sports committee at NMIMS STME. This website serves as a digital hub for updates, announcements, and team information.
 
----
+## 🌐 Live Demo
+> _Coming soon..._
 
-### 🚀 Currently Working On:
-- **Real-Time Safety System for Highway Crosswalks** using YOLOv8 for vehicle and pedestrian detection.
-- **Centralized Query and Complaint Portal** for resolving non-academic issues within the university.
+## 📌 Features
+- 🏆 Homepage highlighting the committee's mission and goals
+- 🧑‍🤝‍🧑 Team sections for:
+  - Organizing Team  
+  - Content Team  
+  - Design Team  
+  - Photography Team  
+  - Social Media Team  
+- 📸 Gallery showcasing past sports events
+- 📣 Announcements & updates section (Coming soon)
+- 📱 Responsive design for all devices
 
----
+## 🛠️ Tech Stack
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Design Tool:** Figma (for prototyping and UI layout)
 
-### 🤝 Looking to Collaborate On:
-- Machine Learning & Deep Learning Models  
-- Full Stack Web Applications  
-- Computer Vision & Object Detection Projects  
-- Android Applications  
-- NLP & Sentiment Analysis  
+## 📁 Project Structure
 
----
 
-### 🛠️ Tech Stack:
-- **Languages:** Python, C++, HTML, CSS, JavaScript, SQL  
-- **Frameworks/Tools:** Firebase, Streamlit, Flask, YOLOv8, AWS (Lambda, S3, DynamoDB), Git  
+## 📸 Screenshots
+_(Add screenshots of your website after deployment)_
 
----
+## 🚀 Getting Started
 
-### 💡 Projects:
-- 🔹 **Home Foods Web App** – E-commerce platform for homemade food with Firebase backend.  
-- 🔹 **Smart Retail Management System** – AI-powered retail assistant with NLP and dynamic pricing.  
-- 🔹 **Wikipedia Sentiment Analyzer** – Streamlit app for NLP and sentiment classification.  
-- 🔹 **University Sports Website** – Designed and developed for managing college sports activities.  
-- 🔹 **NYC Green Taxi Trip Analysis** – Statistical and predictive analytics using Python & Streamlit.
+To run the project locally:
 
----
-
-### 📚 Currently Learning:
-- **AWS Cloud Services**  
-- **Deployment Strategies**  
-- **YOLOv8 Object Detection**  
-- **Advanced Streamlit Techniques**  
-
----
-
-Feel free to connect or collaborate! 🚀
+```bash
+git clone https://github.com/SAINATH0224/IMPULSE_Sports_Website.git
+cd IMPULSE_Sports_Website
