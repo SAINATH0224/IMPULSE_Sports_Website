@@ -23,7 +23,18 @@ Welcome to the official GitHub repository of the **IMPULSE Sports Committee Webs
 
 ## 📁 Project Structure
 ```
-IMPULSE_Sports_Website/ ├── css/ │ └── style.css ├── images/ │ └── (all image assets) ├── js/ │ └── script.js ├── index.html ├── about.html ├── team.html └── gallery.html
+IMPULSE_Sports_Website/
+├── css/
+│   └── style.css            # Custom styles for all pages
+├── images/
+│   └── (all image assets)   # Event photos, team images, logos, etc.
+├── js/
+│   └── script.js            # JavaScript for interactivity (if any)
+├── index.html               # Homepage - mission, highlights, overview
+├── about.html               # About page - purpose and objectives
+├── team.html                # Meet the Team - organizing, design, media
+├── gallery.html             # Event Gallery - photos from past events
+
 
 ```
 ## 📸 Screenshots
