@@ -22,7 +22,10 @@ Welcome to the official GitHub repository of the **IMPULSE Sports Committee Webs
 - **Design Tool:** Figma (for prototyping and UI layout)
 
 ## 📁 Project Structure
+```
 IMPULSE_Sports_Website/ ├── css/ │ └── style.css ├── images/ │ └── (all image assets) ├── js/ │ └── script.js ├── index.html ├── about.html ├── team.html └── gallery.html
+
+```
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/ac8bbbeb-9a98-44e5-acfe-acc5afcbe1cd)
 
