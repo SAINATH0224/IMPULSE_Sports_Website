@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?">
+
+    <title>IMPULSE</title>
+  <script src="https://unpkg.com/scrollreveal@4.3.1/dist/scrollreveal.min.js"></script> <!-- Include ScrollReveal -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> <!-- Include Firebase App (only required for Firebase JS SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script> <!-- Include Firebase Realtime Database (only required for Firebase JS SDK) -->
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#"><img src="assets/logo_1.png" alt="logo"  /></a> 
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-line"></i></span> 
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <h3><li class="link"><a href="#home">Home</a></li></h3>
+            <h3><li class="link"><a href="#about">About</a></li></h3>
+            <h3><li class="link"><a href="#Members">Members</a></li> </h3>
+            <h3><li class="link"><a href="#Games">Games</a></li></h3>
+            <h3><li class="link"><a href="#Events">Events</a></li></h3>
+            <h3><li class="link"><a href="#Gallery">Gallery</a></li></h3>
+            <h3><li class="link"><a href="#Contact">Contact Us</a></li></h3>
+            <h3><li class="link"><a href="login.html">Check responses</a></li></h3>
+          </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+          <div class="header__image">
+            <img src="assets/handball.png" alt="header" />
+          </div>
+          <div class="header__content">
+            <h4><b>IMPULSE</b></h4>
+            <h1 class="section__header">STME SPORTS COMMITTEE</h1>
+            <p>
+              "In the fast-paced world of sports, sports committees serve as the steady hand guiding the ship, navigating challenges, overcoming obstacles, and steering towards the ultimate goal of delivering exceptional sporting experiences."
+            </p>
+            <div class="header__btn">
+              
+  
+              <button class="btn" >Follow us </button> 
+            </div>
+          </div>;
+        </div>
+      </header>
+  
+      <section class="section__container about__container" id="about">
+        <div class="about__image">
+          <img  src="assets/volley.png" alt="about" />
+        </div>
+        <div class="about__content">
+          <h2 class="section__header">Our Story</h2>
+          <p class="section__description">
+            Led by our passionate team, the Sports Committee is your gateway to a vibrant sports culture. We offer thrilling tournaments, community-building events, and opportunities to embrace the joy of athleticism. Join us and experience the excitement of sports, forge new connections, and elevate your passion for active living.
+          </p>
+          <div class="about__grid">
+            <div class="about__card">
+              <span><i class="ri-open-arm-line"></i></span>
+              <div>
+                <h4>Committe Formation</h4>
+                <p>
+                  The sports committee forms through defining objectives, assigning roles, and holding an inaugural meeting to plan activities. Regular evaluation ensures effectiveness, enabling meaningful contributions to the sports community.
+                </p>
+              </div>
+            </div>
+            
+            <div class="about__card">
+              <span><i class="ri-p2p-line"></i></span>
+              <div>
+                <h4>Faculty mentor</h4>
+                <p>
+                  The sports committee, guided by a Faculty mentor, forms through defining objectives, assigning roles, and holding an inaugural meeting to plan activities. Regular evaluation ensures effectiveness, enabling meaningful contributions to the sports community.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="section__container class__container" id="Members">
+        <h2 class="section__header">Members</h2>
+        <p class="section__description">
+    
+        <div class="container">
+          <div class="member">
+            <img src="assets/mem1.jpg" alt="Member 1">
+            <div class="info">
+              <h3>SAINATH</h3>
+              <p>HEAD</p>
+            </div>
+          </div>
+          <div class="member">
+            <img src="assets/mem2.jpg" alt="Member 2">
+            <div class="info">
+              <h3>CHETAN</h3>
+              <p>CO-HEAD</p>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+  
+      <section class="section__container class__container" id="Games">
+        <h2 class="section__header">Games</h2>
+        <p class="section__description">
+          Dear sports fans, missed our recent events? Relive the excitement with photos, videos, and highlights. Our coverage has you covered, whether catching up or seeking thrills. Join us as we revisit the exhilarating moments that define our sporting community!
+  </p>
+        <div class="class__grid" >
+          <div class="class__card">
+            <a href="image1.html">
+            <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="assets/bad.png"alt="class"  height="320px" width="200px"/>
+            </a>
+            
+            <div  class="class__content">
+              <h4>Badminton</h4>
+              <p>Rally Ready</p>
+            </div>
+          </div>
+          <div class="class__card">
+            <a href="image2.html">
+            <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="assets/cricket.png" alt="class"  height="320px" />
+          </a>
+            <div class="class__content">
+              <h4>Cricket</h4>
+              <p>Boundary Blitz</p>
+            </div>
+          </div>
+          <div class="class__card">
+            <a href="image3.html">
+            <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="assets/volley1.png" alt="class"  height="320px" />
+          </a>
+            <div class="class__content">
+              <h4>Volleyball</h4>
+              <p>Spike Spectacular</p>
+            </div>
+          </div>
+          <div class="class__card">
+            <a href="image4.html">
+            <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+            <img src="assets/bac.png" alt="class"   height="320px" /></a>
+            <div class="class__content">
+              <h4>Basket Ball</h4>
+              <p>Dunk Duel</p>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="section__container class__container" id="Events">
+        <h2 class="section__header">Events</h2>
+        <div class="container">
+          <img src="assets/volleyball.png"  alt="Centered Image" class="centered-image" >
+          <div class="button-container">
+            <p class="para">Join us for an exhilarating display of athleticism and teamwork as the ATHLOS(Sports committee, SOL) and IMPLUSE (Sports committee, STME)   proudly presents a thrilling competition featuring both Volleyball and Throwball!<br /><br />
+
+📅 Date: 15th February -18th February <br /><br />
+
+This event promises excitement and an enthusiastic experience for all participants. Get ready to showcase your skills, bond with fellow sports enthusiasts, and compete for glory!
+
+Come be a part of this exciting event and let's make it an unforgettable day filled with sportsmanship and fun.</p>
+<a href="c_register.html" class="centered-button">Register</a>
+          </div>
+        </div>
+      </section>
+  
+     
+      <section class="section__container class__container" id="Gallery">
+          <h2 class="section__header">Gallery</h2>
+          <p class="section__description">
+  
+        <main class="main">
+        <div class="container">
+          <div class="card">
+            <div class="card-image">
+                <img src="assets/spo(1).jpg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+                <img src="assets/spo(4).jpg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+                <img src="assets/spo(7).jpg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <a href="gallery.html" class="bottom">See More</a>
+        
+      </section>
+  
+
+  <!-- Contact Section -->
+  <section id="Contact" class="contact-form">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+      </div>
+    </div>
+    
+    <div class="contactForm">
+      <form id="contactForm">
+        <h1 class="sub-heading">Need Support!</h1>
+        <p class="para para2">Contact us for a quote, help to join the team.</p>
+        <input type="text" id="name" class="input" placeholder="Your name">
+        <input type="email" id="email" class="input" placeholder="Your email">
+        <input type="text" id="subject" class="input" placeholder="Your Subject">
+        <textarea id="message" class="input" cols="30" rows="5" placeholder="Your message..."></textarea>
+        <input type="submit" class="input submit" value="Send Message">
+      </form>
+      <div class="method">
+        <article class="text">
+          <h1 class="sub-heading">Phone</h1>
+          <p class="para">6304342760</p>
+          <h1 class="sub-heading">Email</h1>
+          <p class="para">Email: impulse.stme03@nmims.edu.in</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Members">Members</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+        <a href="https://www.facebook.com/YourPage" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/YourPage" class="social-icon"><i class="fab fa-twitter"></i></a>      
+        <a href="https://www.instagram.com/YourPage" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2024 IMPULSE. All rights reserved.
+    </div>
+</footer>
+<script href="main.js"></script>
+
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+  apiKey: "AIzaSyCWPCpQh9XBOp7baxlFUcLz7Ri6X3xNBCw",
+  authDomain: "impulse-d1c86.firebaseapp.com",
+  projectId: "impulse-d1c86",
+  storageBucket: "impulse-d1c86.appspot.com",
+  messagingSenderId: "563108691076",
+  appId: "1:563108691076:web:21bb583bbd165119ad56d1",
+  measurementId: "G-DWCQXLT5RJ"
+};
+
+    firebase.initializeApp(firebaseConfig);
+
+    // Handle form submission
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value;
+
+      // Store data in Firebase
+      firebase.database().ref('contactMessages').push({
+        name: name,
+        email: email,
+        subject: subject,
+        message: message
+      }).then(function() {
+        alert('Message sent successfully!');
+        // Clear form fields after submission
+        contactForm.reset();
+      }).catch(function(error) {
+        console.error('Error sending message:', error);
+        alert('An error occurred while sending message. Please try again later.');
+      });
+    });
+  </script>
+</body>
+</html>
