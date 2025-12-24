@@ -114,86 +114,16 @@ IMPULSE_Sports_Website/
 
 ---
 
-## 📖 Usage
-
-### For Visitors
-1. Browse the homepage to learn about IMPULSE
-2. Navigate to **Games** section to view available sports
-3. Check the **Gallery** for event photos
-4. Visit **Events** page for upcoming activities
-
-### For Participants
-1. Go to **Registration** page
-2. Fill out the registration form
-3. Submit to participate in events
-
-### For Administrators
-1. Access the **Login** page
-2. View registrations via **Check Registrations**
-3. Monitor messages through **Check Messages**
-
----
-
-## 🎨 Customization
-
-To customize the website:
-
-1. **Update Colors**: Edit CSS variables in `styles.css`
-2. **Change Images**: Replace files in `assets/` folder
-3. **Modify Content**: Edit HTML files directly
-4. **Add Pages**: Create new HTML files and link them in navigation
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👥 Team
-
-**IMPULSE - STME Sports Committee**
-
-- Organizing sports events and activities
-- Building community through athletics
-- Promoting healthy competition and sportsmanship
-
----
-
 ## 📞 Contact
 
 For queries, suggestions, or support:
 
 - **Repository**: [SAINATH0224/IMPULSE_Sports_Website](https://github.com/SAINATH0224/IMPULSE_Sports_Website)
 - **Issues**: [Report a bug or request a feature](https://github.com/SAINATH0224/IMPULSE_Sports_Website/issues)
-
----
-
-## 🌟 Acknowledgments
-
-- STME Sports Committee members
-- All event participants and volunteers
-- Contributors to this project
-
 ---
 
 <div align="center">
 
-**⭐ Star this repository if you find it helpful!**
-
-Made with ❤️ by the IMPULSE Team
+Made  by the IMPULSE HEAD SAINATH
 
 </div>
