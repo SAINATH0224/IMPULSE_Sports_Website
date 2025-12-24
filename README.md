@@ -2,6 +2,9 @@
 
 A static website for the IMPULSE sports event. This repository contains the event homepage, galleries, rules, registration pages, and assets.
 
+## Live Site
+- https://SAINATH0224.github.io/IMPULSE_Sports_Website/
+
 ## Overview
 - Landing page: index.html
 - Styles: styles.css, C_style.css, gallery.css
